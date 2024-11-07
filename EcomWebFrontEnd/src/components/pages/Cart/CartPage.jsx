@@ -22,7 +22,8 @@ const CartPage = ({setNumOfCartItem}) => {
         {setCartItems(res.data.items)
         setCartTotal(res.data)
         setCartAmount(res.data.num_of_items)
-        setNumOfCartItem(cartTotal.num_of_items==null || cartTotal.num_of_items==0 ? 0 : cartTotal.num_of_items)}
+        setNumOfCartItem(res.data.num_of_items == null || res.data.num_of_items == 0 ? 0 : res.data.num_of_items)
+      }
         }
         fetchCart();
       }

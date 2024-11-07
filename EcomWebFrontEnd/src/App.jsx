@@ -39,7 +39,7 @@ const App = () => {
       }
 
     fetchCartState();
-  })
+  },[])
 
   return (
     <AuthProvider>
