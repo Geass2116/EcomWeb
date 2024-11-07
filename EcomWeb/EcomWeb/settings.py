@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-9q0n@lct3d!ht0brc6po(b)%r3saa6j7-^c$_66p9!ndxwu@mv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://ecom-web-five.vercel.app/"]
 
 
 # Application definition
