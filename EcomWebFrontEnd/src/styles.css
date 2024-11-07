@@ -1,0 +1,5 @@
+/* Global font size */
+body {
+  font-size: 18px; /* You can adjust this value to whatever size you prefer */
+  font-family: Arial, sans-serif; /* Optional: Set a default font family */
+}

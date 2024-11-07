@@ -1,0 +1,41 @@
+/* Footer.css */
+.footer-container {
+  background-color: #343a40; /* Match the navbar background */
+  color: #ffffff; /* White text */
+  padding: 20px; /* Add padding */
+  text-align: center; /* Center text */
+}
+
+.footer-content {
+  max-width: 1200px; /* Max width for content */
+  margin: 0 auto; /* Center the content */
+}
+
+.footer-list {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  display: flex; /* Flexbox for horizontal layout */
+  justify-content: center; /* Center the list */
+  gap: 20px; /* Space between items */
+  margin-bottom: 10px; /* Space below the list */
+}
+
+.footer-item {
+  margin: 0; /* Remove margin */
+}
+
+.footer-link {
+  color: #ffffff; /* White text */
+  text-decoration: none; /* No underline */
+  font-weight: 500; /* Medium font weight */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.footer-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.footer-text {
+  font-size: 14px; /* Smaller font size */
+  margin: 0; /* Remove margin */
+}

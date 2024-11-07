@@ -1,0 +1,18 @@
+.welcome-container {
+  text-align: center; /* Center the text */
+  margin: 50px 0; /* Add some margin for spacing */
+  padding: 20px; /* Add some padding */
+  background-color: #f8f9fa; /* Light background color */
+  border: 1px solid #dee2e6; /* Optional: border for better visibility */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
+.welcome-container h1 {
+  font-size: 2.5rem; /* Larger font size for the heading */
+  color: #343a40; /* Dark color for the heading */
+}
+
+.welcome-container p {
+  font-size: 1.25rem; /* Slightly larger font size for the paragraph */
+  color: #6c757d; /* Grey color for the paragraph */
+}
