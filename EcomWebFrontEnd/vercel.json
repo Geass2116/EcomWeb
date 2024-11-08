@@ -1,16 +1,7 @@
 {
     "rewrites": [
-      {
-        "source": "/(.*)",        
-        "destination": "/"        
-      }
-    ],
-    "redirects": [
-      {
-        "source": "/api/(.*)",
-        "destination": "https://ecomweb-mjmu.onrender.com/api/$1",
-        "type": 301
-      }
+      { "source": "/api/(.*)", "destination": "https://ecomweb-mjmu.onrender.com/api/$1" },
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
   
